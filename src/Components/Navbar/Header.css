@@ -1,0 +1,54 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #706F6F;
+}
+
+.nav-options ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    gap: 30px;
+}
+
+.nav-options li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-options li a {
+    border: 1.5px solid #EE7103;
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: #EE7103;
+}
+
+.nav-options li img {
+    padding-right: 20px;
+}
+
+#product {
+    border: none;
+    outline: none;
+}
+
+.nav-profile {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+hr {
+    margin: 0;
+}

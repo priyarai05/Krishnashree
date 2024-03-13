@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+}
+
+.LandingPage {
+    margin: 50px auto;
+    background-color: #F5F1E8;
+    width: 90%;
+    height: 696px;
+    border-radius: 9px;
+    font-family: "helvetica";
+    overflow: hidden;
+}
+
+.Desc {
+    padding: 50px 0 0 50px;
+    width: 60%;
+}
+
+h1 {
+    padding-right: 19rem;
+    margin-bottom: 50px;
+    /* padding: 80px;
+    width: 445px; */
+    color: #EE7103;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 15px;
+    color: #924A3B;
+    border: 1px solid #924A3B;
+    border-radius: 9px;
+}
+
+.images{
+    padding: 0;
+}
+
+.images img{
+    position: relative;
+}
+
+.images li{
+    list-style: none;
+}
+.images li:nth-child(1) {
+    margin-top: -1rem;
+}
+.images li:nth-child(1) img{
+    margin: -20rem 0 0 38rem;
+    object-position: -20% 0;
+}
+
+.images li:nth-child(2) img{
+    width: 30%;
+    rotate: -20deg;
+    margin: -12rem 0 0 -16rem;
+}
+
+.images li:nth-child(3) img{
+    width: 22%;
+    margin: -34rem 0 26rem 73rem;
+}
+
+.images li:nth-child(4) img{
+    rotate: 30deg;
+    margin: -18rem 0 0 5rem;
+}
+.images li:nth-child(5){
+    margin-top: -8rem;
+}
+.images li:nth-child(5) img{
+    margin: -48rem 0 0 62rem;
+}
+.images li:nth-child(6){
+    margin-top: -8rem;
+}
+.images li:nth-child(6) img{
+    margin: -20rem 0 0 38rem;   
+}
+
+.symbols li{
+    list-style: none;
+}
+
+.circle{
+    background-color: rgba(238, 113, 3, 0.24);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.one{
+    margin: -40rem 0 0 50rem;
+}
+
+.two{
+    width: 150px;
+    height: 150px;
+    margin: 10rem 0 0 60rem;
+}
+
+.three{
+    margin: -3rem 0 0 33rem;
+}
+
+.four{
+    margin: 6rem 0 0 7rem;
+}
